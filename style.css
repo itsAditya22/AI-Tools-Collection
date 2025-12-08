@@ -11,7 +11,7 @@ body {
     justify-content: center;
     padding: 20px;
   }
-  
+
   .ai-card {
     width: 300px;
     height: 200px;
@@ -26,17 +26,16 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     transition: background-color 0.3s ease;
   }
   
-  .ai-card:hover {
+.ai-card:hover {
     background-color: #4ECDC4; /* Change the hover color as per your preference */
     /* Enlarge the AI cards on hover */
   transform: scale(1.05);
   /* Add more prominent box shadow on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);    
   }
   
   h2 {
